@@ -24,20 +24,19 @@ const createWindow = () => {
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
-
-  os.cpuUsage(function(v){
-    console.log('cpu usage (%) ' + v*100);
-    mainWindow.webContents.send('cpu', v*100);
-  
-    console.log('mem usage (%) ' + os.freememPercentage()*100);
-    mainWindow.webContents.send('mem', os.freememPercentage()*100);
-  
-    console.log('total mem (GB) ' + os.totalmem()/1024);
-    mainWindow.webContents.send('total-mem', os.totalmem()/1024);
+  setInterval(()=>{
+    os.cpuUsage(function(v){
+      // console.log('cpu usage (%) ' + v*100);
+      mainWindow.webContents.send('cpu', v*100);
+    
+      // console.log('mem usage (%) ' + os.freememPercentage()*100);
+      mainWindow.webContents.send('mem', os.freememPercentage()*100);
+    
+      // console.log('total mem (GB) ' + os.totalmem()/1024);
+      mainWindow.webContents.send('total-mem', os.totalmem()/1024);
   });
-
-
-/** l'accolade endessous est la fin de const creatWindow */
+},1000)
+  /** l'accolade endessous est la fin de const creatWindow */
 }
 
 // This method will be called when Electron has finished
