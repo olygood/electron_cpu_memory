@@ -1,3 +1,9 @@
+# start programme  
+## clone repository  
+## npm install  
+## npm start  
+
+
 ##application cpu  
 npm install electron -g  
 npm install create-electron-app -g
