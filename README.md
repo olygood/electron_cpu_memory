@@ -5,7 +5,7 @@
 ## npm start  
 ![cpu %](https://github.com/olygood/electron_cpu_memory/blob/master/images/cpuelectronJs.png)
 
-### electronJs  
+### create with electronJs  
 [electronJs.org](https://www.electronjs.org/)
 
 create-electron-app cpu-app  
