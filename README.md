@@ -5,9 +5,8 @@
 ## npm start  
 ![cpu %](https://github.com/olygood/electron_cpu_memory/blob/master/images/cpuelectronJs.png)
 
-##application cpu  
-npm install electron -g  
-npm install create-electron-app -g
+### electronJs  
+[electronJs.org](https://www.electronjs.org/)
 
 create-electron-app cpu-app  
 il va créer dans votre dossier un dossier/cpu-app  
