@@ -1,4 +1,4 @@
-# program for % cpu visualization  
+# program for % cpu and memory visualization  
 ## start program  
 ## clone repository  
 ## npm install  
