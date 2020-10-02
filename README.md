@@ -3,7 +3,7 @@
 ## clone repository  
 ## npm install  
 ## npm start  
-![cpu %]()
+![cpu %](https://github.com/olygood/electron_cpu_memory/blob/master/images/cpuelectronJs.png)
 
 ##application cpu  
 npm install electron -g  
