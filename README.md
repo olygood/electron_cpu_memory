@@ -1,4 +1,5 @@
-# start programme  
+# program for % cpu visualization  
+## start program  
 ## clone repository  
 ## npm install  
 ## npm start  
