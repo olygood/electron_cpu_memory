@@ -3,7 +3,7 @@
 ## clone repository  
 ## npm install  
 ## npm start  
-
+![cpu %]()
 
 ##application cpu  
 npm install electron -g  
